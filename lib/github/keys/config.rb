@@ -14,8 +14,10 @@ module Github
       def initialize
         @login = nil
         @password = nil
+
+        load_configs
       end
-      attr_reader :login, :password
+      attr_accessor :login, :password
 
       def to_hash
         { :login => login, :password => password }
@@ -37,7 +39,7 @@ module Github
       end
     end
 
-    def config
+    def self.config
       @config ||= Config.instance
     end
   end

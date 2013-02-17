@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'github/keys'
+require 'github/keys/cli'
+Github::Keys::CLI.start
