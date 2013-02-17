@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Github::Keys::VERSION
   gem.authors       = ["Sho Kusano"]
   gem.email         = ["rosylilly@aduca.org"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{easy get github keys}
+  gem.summary       = %q{easy get github keys}
+  gem.homepage      = "https://github.com/rosylilly/github-keys"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency "rake"
-  gem.add_development_dependency "rspec"
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
 end
