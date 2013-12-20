@@ -21,6 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
 
-  gem.add_dependency 'slop', '~> 3.4.3'
-  gem.add_dependency 'github_api', '~> 0.8.11'
+  gem.add_dependency 'slop', '~> 3.4.7'
+  gem.add_dependency 'github_api', '~> 0.11.1'
 end
